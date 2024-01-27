@@ -2,7 +2,7 @@
 from sys import argv
 
 with open(argv[1]) as f:
-	for line in f:
+    for line in f:
 	num = int(line)
         print("{:d}=".format(num), end='')
         if num % 2 == 0:
